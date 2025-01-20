@@ -1,3 +1,8 @@
+data/Mnist/
+data/Mnist/data/test
+data/test
+data/train
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +132,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+

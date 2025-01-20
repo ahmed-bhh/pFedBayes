@@ -71,7 +71,7 @@ class pFedBayes(Server):
         self.rs_train_acc.append(train_acc)
         self.rs_train_loss.append(train_loss)
 
-        print("Average personal Accurancy: ", per_acc)
-        print("Average Global Accurancy: ", glob_acc)
-        print("Average Global Trainning Accurancy: ", train_acc)
+        print("Average personal Accuracy: ", per_acc)
+        print("Average Global Accuracy: ", glob_acc)
+        print("Average Global Trainning Accuracy: ", train_acc)
         print("Average Global Trainning Loss: ", train_loss)
