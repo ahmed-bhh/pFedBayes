@@ -76,7 +76,6 @@ def runFedBayes():
     config = load_config(config_path)
     print(f"Configuration chargée avec succès depuis : {config_path}")
     print(config)
-
     print("Dataset Name:", config.data_params.dataset_name)
     print("Train Batch Size:", config.data_params.train_batch_size)
     print("Number of Clients:", config.data_params.specific_dataset_params.n_clients)
